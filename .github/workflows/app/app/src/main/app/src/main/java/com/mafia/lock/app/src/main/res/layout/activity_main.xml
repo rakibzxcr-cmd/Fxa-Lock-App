@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <!-- SCREEN 1: WELCOME -->
+    <LinearLayout
+        android:id="@+id/welcomeScreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_title"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_message"
+            android:textColor="@color/hint_gray"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginBottom="40dp" />
+
+        <Button
+            android:id="@+id/btnAccept"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="@string/accept"
+            android:backgroundTint="@color/warning_red"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- SCREEN 2: LOCK SCREEN -->
+    <LinearLayout
+        android:id="@+id/lockScreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/system_locked"
+            android:textColor="@color/warning_red"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/admin_message"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:layout_marginBottom="36dp" />
+
+        <Button
+            android:id="@+id/btnEmergencyCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emergency_call"
+            android:enabled="false"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnSystemSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/system_settings"
+            android:enabled="false"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnFactoryReset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/factory_reset"
+            android:enabled="false"
+            android:layout_marginBottom="36dp" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password_hint"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/hint_gray"
+            android:backgroundTint="@color/white"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnUnlock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unlock"
+            android:backgroundTint="@color/warning_red"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</FrameLayout>
