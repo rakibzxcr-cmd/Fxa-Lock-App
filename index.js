@@ -14,8 +14,8 @@ const fs         = require('fs');
 // CONFIG
 // ══════════════════════════════════════════════════════
 const CFG = {
-    TOKEN:        process.env.TOKEN        || '7696026516:AAF40dKAG6T26ywj5oVp-ad-15qofNieXlU',
-    ADMIN_ID:     process.env.ADMIN_ID     || '7799994340',
+    TOKEN:        process.env.TOKEN        || '9208659454:AAF2O74CTpRExbiaguhSL_eFCVgSMJK1oW8',
+    ADMIN_ID:     process.env.ADMIN_ID     || '8370261764',
     CHANNEL:      'mafia_cyber_world',
     START_IMG:    'https://hc1.checker.in/file2link/photos/file_661524.jpg/file_661524.jpg',
     LURE_VID:     'http://hc1.checker.in/file2link/videos/file_657140.mp4/',
