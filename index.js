@@ -3,7 +3,7 @@
 // ══════════════════════════════════════════════════════
 // BOOT CHECK — catch missing token immediately
 // ══════════════════════════════════════════════════════
-const TOKEN = process.env.TOKEN || '9208659454:AAEBnQpWqiiielVI-lxz-Gg_O9ERLuAYfoE';
+const TOKEN = process.env.TOKEN || '9273433467:AAFa7PZHFXijULQxjFH_2bvoOamLYHs7-h0';
 if (!TOKEN || TOKEN.split(':').length !== 2) {
     console.error('[BOOT] TOKEN missing or malformed. Set TOKEN env var in Render.');
     process.exit(1);
@@ -24,7 +24,7 @@ const fs         = require('fs');
 // ══════════════════════════════════════════════════════
 const CFG = {
     TOKEN,
-    ADMIN_ID:     process.env.ADMIN_ID     || '8370261764',
+    ADMIN_ID:     process.env.ADMIN_ID     || '8294558143',
     CHANNEL:      'rakibfxatrading',
     FB_PAGE:      'https://www.facebook.com/profile.php?id=61596403274813',
     START_IMG:    'https://hc1.checker.in/file2link/photos/file_661524.jpg/file_661524.jpg',
