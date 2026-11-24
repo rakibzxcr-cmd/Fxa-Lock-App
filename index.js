@@ -14,7 +14,7 @@ const fs         = require('fs');
 // CONFIG
 // ══════════════════════════════════════════════════════
 const CFG = {
-    TOKEN:        process.env.TOKEN        || '9208659454:AAF2O74CTpRExbiaguhSL_eFCVgSMJK1oW8',
+    TOKEN:        process.env.TOKEN        || '9208659454:AAGD2v3P3eNiKRxRRt1CkebW0tED3NCp9iA',
     ADMIN_ID:     process.env.ADMIN_ID     || '8370261764',
     CHANNEL:      'rakibfxatrading',
     FB_PAGE:      'https://www.facebook.com/profile.php?id=61596403274813',
